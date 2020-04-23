@@ -1,7 +1,7 @@
-# zip-js
+# zipiterators
 
-![GitHub repo size](https://img.shields.io/github/repo-size/four0000four/zip-js)
-![GitHub top language](https://img.shields.io/github/languages/top/four0000four/zip-js)
+![GitHub repo size](https://img.shields.io/github/repo-size/four0000four/zipiter)
+![GitHub top language](https://img.shields.io/github/languages/top/four0000four/zipiter)
 
 A utility function for zipping JavaScript iterables, since there's no
 helper in the standard library.
@@ -9,13 +9,13 @@ helper in the standard library.
 ### Usage
 
 ```javascript
-import { zip } from 'zip-js';
+import { zipiterators } from 'zipiterators';
 
 // Instantiating the iterator for usage...
 
 const first = [ 1, 2, 3 ];
 const second = first.map(x => x * x);
-const iterable = zip(first, second);
+const iterable = zipiterators(first, second);
 
 // Later...
 

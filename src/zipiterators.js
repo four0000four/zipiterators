@@ -1,4 +1,4 @@
-export function* zip(fst, snd) {
+export function* zipiterators(fst, snd) {
 
   const fstIterable = fst[Symbol.iterator]();
   const sndIterable = snd[Symbol.iterator]();
