@@ -1,6 +1,6 @@
 {
   "name": "zipiterators",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/zipiterators.js",
   "scripts": {
