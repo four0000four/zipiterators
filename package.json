@@ -35,5 +35,12 @@
         "@babel/plugin-transform-modules-commonjs"
       ]
     }
+  },
+  "jest": {
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
+    ]
   }
 }

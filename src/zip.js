@@ -5,12 +5,12 @@ export function* zip(fst, snd) {
 
   let isFirstDone = false;
   let isSecondDone = false;
-  while (!isFirstDone && !isSecondDone) {
+  while (!isFirstDone || !isSecondDone) {
 
-    const a = isFirstDone ? null : fstIterable.next();
+    const a = isFirstDone ? undefined : fstIterable.next();
     isFirstDone |= a && a.done;
 
-    const b = isSecondDone ? null : sndIterable.next();
+    const b = isSecondDone ? undefined : sndIterable.next();
     isSecondDone |= b && b.done;
 
     if (isFirstDone && isSecondDone) {
