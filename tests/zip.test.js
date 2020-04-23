@@ -1,4 +1,4 @@
-const zip = require('./zip');
+import { zip } from '../src/zip';
 
 
 test('zips an Array of ints with its own reverse', () => {

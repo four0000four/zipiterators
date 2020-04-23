@@ -6,9 +6,31 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "four0000four",
+  "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
     "jest": "^25.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/four0000four/zip-js"
+  },
+  "bugs": {
+    "url": "https://github.com/four0000four/zip-js/issues"
+  },
+  "homepage": "https://github.com/four0000four/zip-js",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7"
+  },
+  "env": {
+    "test": {
+      "plugins": [
+        "@babel/plugin-transform-modules-commonjs"
+      ]
+    }
   }
 }
