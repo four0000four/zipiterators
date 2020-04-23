@@ -1,8 +1,16 @@
 {
   "name": "zipiterators",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./lib/zipiterators.js",
+  "keywords": [
+    "zip",
+    "functional",
+    "array",
+    "iterator",
+    "currying",
+    "combine"
+  ],
   "scripts": {
     "test": "jest",
     "build": "babel src --out-dir lib"
