@@ -1,6 +1,7 @@
 # zip-js
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/four0000four/zip-js)
+![GitHub top language](https://img.shields.io/github/languages/top/four0000four/zip-js)
 
 A utility function for zipping JavaScript iterables, since there's no
 helper in the standard library.
