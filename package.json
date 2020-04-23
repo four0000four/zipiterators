@@ -1,8 +1,8 @@
 {
-  "name": "zip",
+  "name": "zipiter",
   "version": "1.0.0",
   "description": "",
-  "main": "./lib/zip.js",
+  "main": "./lib/zipiter.js",
   "scripts": {
     "test": "jest",
     "build": "babel src --out-dir lib"
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/four0000four/zip-js"
+    "url": "https://github.com/four0000four/zipiter"
   },
   "bugs": {
-    "url": "https://github.com/four0000four/zip-js/issues"
+    "url": "https://github.com/four0000four/zipiter/issues"
   },
-  "homepage": "https://github.com/four0000four/zip-js",
+  "homepage": "https://github.com/four0000four/zipiter",
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
     "core-js": "^3.6.5"
