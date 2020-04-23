@@ -2,7 +2,7 @@
   "name": "zipiterators",
   "version": "1.0.0",
   "description": "",
-  "main": "./lib/zipiter.js",
+  "main": "./lib/zipiterators.js",
   "scripts": {
     "test": "jest",
     "build": "babel src --out-dir lib"
